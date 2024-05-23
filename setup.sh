@@ -20,27 +20,27 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-akbarvpn="raw.githubusercontent.com/lizsvr/cfnfree/main/ssh"
+akbarvpn="raw.githubusercontent.com/User058/cfnfree/main/ssh"
 # Link Hosting Kalian Untuk Sstp
-akbarvpnn="raw.githubusercontent.com/lizsvr/cfnfree/main/sstp"
+akbarvpnn="raw.githubusercontent.com/User058/cfnfree/main/sstp"
 # Link Hosting Kalian Untuk Ssr
-akbarvpnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/ssr"
+akbarvpnnn="raw.githubusercontent.com/User058/cfnfree/main/ssr"
 # Link Hosting Kalian Untuk Shadowsocks
-akbarvpnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/shadowsocks"
+akbarvpnnnn="raw.githubusercontent.com/User058/cfnfree/main/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
-akbarvpnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/wireguard"
+akbarvpnnnnn="raw.githubusercontent.com/User058/cfnfree/main/wireguard"
 # Link Hosting Kalian Untuk Xray
-akbarvpnnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/xray"
+akbarvpnnnnnn="raw.githubusercontent.com/User058/cfnfree/main/xray"
 # Link Hosting Kalian Untuk Ipsec
-akbarvpnnnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/ipsec"
+akbarvpnnnnnnn="raw.githubusercontent.com/User058/cfnfree/main/ipsec"
 # Link Hosting Kalian Untuk Backup
-akbarvpnnnnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/backup"
+akbarvpnnnnnnnn="raw.githubusercontent.com/User058/cfnfree/main/backup"
 # Link Hosting Kalian Untuk Websocket
-akbarvpnnnnnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/websocket"
+akbarvpnnnnnnnnn="raw.githubusercontent.com/User058/cfnfree/main/websocket"
 # Link Hosting Kalian Untuk Ohp
-akbarvpnnnnnnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/ohp"
+akbarvpnnnnnnnnnn="raw.githubusercontent.com/User058/cfnfree/main/ohp"
 # link Hosting update
-akbarvpnnnnnnnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/update"
+akbarvpnnnnnnnnnnn="raw.githubusercontent.com/User058/cfnfree/main/update"
 
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
