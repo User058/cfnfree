@@ -12,8 +12,8 @@ PASS = ''
 BUFLEN = 4096 * 4
 TIMEOUT = 60
 DEFAULT_HOST = '127.0.0.1:109'
-RESPONSE = 'HTTP/1.1 101 <b><font color="red"> User058 Switching Protocols </font></b>\r\n\r\nContent-Length: 104857600000\r\n\r\n'
-#RESPONSE = 'HTTP/1.1 101 <b><font color="red"> User058 Switching Protocols </font></b>\r\n\r\nContent-Length: 104857600000\r\n\r\n'
+RESPONSE = 'HTTP/1.1 101 <b><font color="red"> User058 @ Saf Telkom Airtel </font></b>\r\n\r\nContent-Length: 104857600000\r\n\r\n'
+#RESPONSE = 'HTTP/1.1 101 <b><font color="red"> User058 @ Saf Telkom Airtel </font></b>\r\n\r\nContent-Length: 104857600000\r\n\r\n'
 
 
 class Server(threading.Thread):
