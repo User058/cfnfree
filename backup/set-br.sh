@@ -14,7 +14,7 @@ LIGHT='\033[0;37m'
 #Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-IZIN=$(curl https://raw.githubusercontent.com/lizsvr/project/main/ipvps.txt | grep $MYIP | awk '{print $3}')
+IZIN=$(curl https://raw.githubusercontent.com/User058/project/main/ipvps.txt | grep $MYIP | awk '{print $3}')
 if [ $MYIP = $MYIP ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
@@ -25,7 +25,7 @@ exit 0
 fi
 clear
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/lizsvr/cfnfree/main/backup"
+akbarvpn="raw.githubusercontent.com/User058/cfnfree/main/backup"
 
 curl https://rclone.org/install.sh | bash
 printf "q\n" | rclone config
