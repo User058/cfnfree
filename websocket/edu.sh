@@ -26,7 +26,7 @@ exit 0
 fi
 clear
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/lizsvr/cfnfree/main/websocket"
+akbarvpn="raw.githubusercontent.com/User058/cfnfree/main/websocket"
 
 # Getting Proxy Template
 wget -q -O /usr/local/bin/ws-nontls https://${akbarvpn}/websocket.py
@@ -46,7 +46,7 @@ User=root
 CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 NoNewPrivileges=true
-ExecStart=/usr/bin/python -O /usr/local/bin/ws-nontls 8880
+ExecStart=/usr/bin/python -O /usr/local/bin/ws-nontls 80
 Restart=on-failure
 
 [Install]
