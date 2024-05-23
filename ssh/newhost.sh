@@ -27,7 +27,7 @@ error1="${RED}[ERROR]${NC}"
 success="${GREEN}[SUCCESS]${NC}"
 clear
 echo -e "========================="
-read -rp "Masukan Domain/Host : " -e domain
+read -rp "Please input Domain/Host : " -e domain
 echo -e "========================="
 echo -e "${success} Please wait..."
 mkdir -p /usr/bin/xray
