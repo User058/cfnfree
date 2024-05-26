@@ -37,6 +37,7 @@ wget -O mbackup "https://${lizupdate}/mbackup.sh"
 wget -O maddxray "https://${lizupdate}/maddxray.sh"
 wget -O msetting "https://${lizupdate}/msetting.sh"
 wget -O start-menu "https://${lizupdate}/start-menu.sh"
+wget -O m-sshovpn.sh "https://raw.githubusercontent.com/User058/cfnfree/main/update/m-sshovpn.sh"
 # change Permission
 chmod +x menu
 chmod +x maddssh
@@ -44,6 +45,7 @@ chmod +x maddxray
 chmod +x mbackup
 chmod +x msetting
 chmod +x start-menu
+chmod +x m-sshovpn.sh
 #change direct
 cd /root
 # clear
