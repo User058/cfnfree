@@ -121,14 +121,6 @@ case $menu in
 1)
 m-sshovpn
 ;;
-2) clear ; m-vmess ;;
-3) clear ; m-vless ;;
-4) clear ; m-trojan ;;
-5) clear ; m-ssws ;;
-6) clear ; m-system ;;
-7) clear ; running ;;
-8) clear ; clearcache ;;
-9) clear ; reboot ; /sbin/reboot ;;
 x) exit ;;
 *) echo "Anda salah tekan " ; sleep 1 ; menu ;;
 esac
