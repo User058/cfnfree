@@ -119,7 +119,7 @@ read -p " Select menu :  "  opt
 echo -e   ""
 case $menu in
 1)
-m-sshovpn
+maddssh
 ;;
 x) exit ;;
 *) echo "Anda salah tekan " ; sleep 1 ; menu ;;
