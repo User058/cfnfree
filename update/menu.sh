@@ -117,8 +117,9 @@ echo -e "\e[1;36m --------------------t.me/givpn-------------------\e[0m"
 echo -e   ""
 read -p " Select menu :  "  opt
 echo -e   ""
-case $opt in
-1) clear ; m-sshovpn ;;
+case $menu in
+1)
+m-sshovpn
 2) clear ; m-vmess ;;
 3) clear ; m-vless ;;
 4) clear ; m-trojan ;;
