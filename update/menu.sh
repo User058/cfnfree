@@ -37,7 +37,7 @@ echo -e "$BLUE║---------------------------------------║"
 echo -e "$BLUE╠➣$NC Mod By User058                       $BLUE║"
 echo -e "$BLUE╠➣$NC Holla                                $BLUE║"
 echo -e "$BLUE╚═══════════════════════════════════════╝$NC"  
-read -p "Select From Options [ 1 - 6 ] : " menu
+read -p "Select From Options [ 1 - 7 ] : " menu
 echo -e ""
 case $menu in
 1)
