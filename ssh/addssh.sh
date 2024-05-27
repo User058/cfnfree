@@ -67,8 +67,7 @@ expi="$(chage -l $Login | grep "Account expires" | awk -F": " '{print $2}')"
 echo -e "$pass\n$pass\n" | passwd $Login &> /dev/null
 hariini=`date -d "0 days" +"%Y-%m-%d"`
 expi=`date -d "${hari} days" +"%Y-%m-%d"`
-echo -e  "${success} Menambahkan User Please Wait.."
-sleep 5
+echo -e  "${success} Creating User Please Wait.."
 clear
 fi
 echo -e "Thank You For Using Our Services"
