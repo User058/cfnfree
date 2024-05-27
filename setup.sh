@@ -114,7 +114,7 @@ echo "1.2" > /home/ver
 echo " "
 echo "Installation has been completed!!"
 echo " "
-echo "=================================-Akbar Maulana Project-===========================" | tee -a log-install.txt
+echo "=================================-USER058-===========================" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "----------------------------------------------------------------------------" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
@@ -127,7 +127,7 @@ echo "   - Squid Proxy (Off)       : 3128, 8080"  | tee -a log-install.txt
 echo "   - Badvpn                  : 7100, 7200, 7300"  | tee -a log-install.txt
 echo "   - Nginx                   : 89"  | tee -a log-install.txt
 echo "   - Websocket TLS           : 443"  | tee -a log-install.txt
-echo "   - Websocket None TLS      : 8880"  | tee -a log-install.txt
+echo "   - Websocket None TLS      : 80"  | tee -a log-install.txt
 echo "   - Websocket Ovpn          : 2086"  | tee -a log-install.txt
 echo "   - OHP SSH                 : 8181"  | tee -a log-install.txt
 echo "   - OHP Dropbear            : 8282"  | tee -a log-install.txt
