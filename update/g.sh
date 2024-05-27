@@ -24,14 +24,13 @@ echo -e "${NC}${LIGHT}Telegram : https://t.me/liz_mine"
 exit 0
 fi
 clear
-lizupdate="raw.githubusercontent.com/User058/cfnfree/main/update"
 # change direct
 cd /usr/bin
 # remove file
 rm menu
 rm -rf menu
 # Download update
-wget -O menu "https://${lizupdate}/menu.sh"
+wget -O menu "https://raw.githubusercontent.com/User058/cfnfree/main/update/menu.sh"
 wget -O maddssh "https://${lizupdate}/maddssh.sh"
 wget -O mbackup "https://${lizupdate}/mbackup.sh"
 wget -O maddxray "https://${lizupdate}/maddxray.sh"
