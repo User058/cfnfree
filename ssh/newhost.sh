@@ -36,7 +36,6 @@ echo $domain >> /etc/xray/domain
 echo $domain >> /root/domain
 echo "IP=$domain" >> /var/lib/akbarstorevpn/ipvps.conf
 echo "none" >> /var/lib/akbarstorevpn/cfndomain
-sleep 5
 
 # sleep 0.5
 # domain=$(cat /etc/xray/domain)
