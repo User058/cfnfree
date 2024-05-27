@@ -24,7 +24,7 @@ echo -e "${NC}${LIGHT}Telegram : https://t.me/liz_mine"
 exit 0
 fi
 clear
-lizupdate="raw.githubusercontent.com/User058/cfnfree/main/update"
+lizupdate="https://raw.githubusercontent.com/User058/cfnfree/main/update/getupdate.sh"
 # change direct
 cd /usr/bin
 # remove file
