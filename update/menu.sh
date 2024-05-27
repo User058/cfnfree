@@ -26,7 +26,7 @@ echo -e "$BLUE╔═════════════════════
 echo -e "$BLUE║           $ORANGE  [ Main Menu ]          $BLUE   ║"
 echo -e "$BLUE╠═══════════════════════════════════════$BLUE╣"
 echo -e "$BLUE║---------------------------------------║"
-echo -e "$GREEN╠➣$NC 1$NC. SSH & OpenVPN Account            $BLUE║ "
+echo -e "$BLUE╠➣$NC 1$NC. SSH & OpenVPN Account             $BLUE║ "
 echo -e "$BLUE╠➣$NC 2$NC. Restart All Service         $BLUE      ║ " 
 echo -e "$BLUE╠➣$NC 3$NC. Backup & Restore            $BLUE      ║ " 
 echo -e "$BLUE╠➣$NC 4$NC. Settings                    $BLUE      ║ " 
