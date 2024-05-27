@@ -24,19 +24,19 @@ echo -e "${NC}${LIGHT}Telegram : https://t.me/liz_mine"
 exit 0
 fi
 clear
-lizupdate="https://raw.githubusercontent.com/User058/cfnfree/main/update"
+k="https://raw.githubusercontent.com/User058/cfnfree/main/update"
 # change direct
 cd /usr/bin
 # remove file
 rm menu
 rm -rf menu
 # Download update
-wget -O menu "https://raw.githubusercontent.com/User058/cfnfree/main/update/menu.sh"
-wget -O maddssh "https://${lizupdate}/maddssh.sh"
-wget -O mbackup "https://${lizupdate}/mbackup.sh"
-wget -O maddxray "https://${lizupdate}/maddxray.sh"
-wget -O msetting "https://${lizupdate}/msetting.sh"
-wget -O start-menu "https://${lizupdate}/start-menu.sh"
+wget -O menu "https://${k}/menu.sh"
+wget -O maddssh "https://${k}/maddssh.sh"
+wget -O mbackup "https://${k}/mbackup.sh"
+wget -O maddxray "https://${k}/maddxray.sh"
+wget -O msetting "https://${k}/msetting.sh"
+wget -O start-menu "https://${k}/start-menu.sh"
 # change Permission
 chmod +x menu
 chmod +x maddssh
