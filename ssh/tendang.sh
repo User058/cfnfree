@@ -1,6 +1,6 @@
 #!/bin/bash
-# Script by : Akbar Maulana
-#!/bin/bash
+MYIP=$(wget -qO- ipv4.icanhazip.com);
+echo "Checking VPS"
 clear
 MAX=1
 if [ -e "/var/log/auth.log" ]; then
