@@ -452,6 +452,7 @@ wget -O cekvmess "https://${akbarvpnn}/cekv2ray.sh"
 wget -O certv2ray "https://${akbarvpnn}/certv2ray.sh"
 wget -O portsshws "https://${akbarvpnnnnn}/portsshws.sh"
 wget -O portsshnontls "https://${akbarvpnnnnn}/portsshnontls.sh"
+wget -O m-dns "https://${akbarvpnnnnn}/m-dns.sh"
 
 chmod +x addhost
 chmod +x menu
@@ -502,6 +503,7 @@ chmod +x portsshws
 chmod +x portsshnontls
 chmod +x cfnhost
 chmod +x certsslh
+chmod +x m-dns
 echo "0 5 * * * root clearlog && reboot" >> /etc/crontab
 echo "0 0 * * * root xp" >> /etc/crontab
 echo "5 0 * * * root delexp && restart " >> /etc/crontab
