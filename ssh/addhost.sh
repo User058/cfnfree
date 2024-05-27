@@ -28,10 +28,10 @@ success="${GREEN}[SUCCESS]${NC}"
 clear
 
 echo -e "========================="
-read -rp "Masukan Domain/Host : " -e domain
+read -rp "Add Domain/Host : " -e domain
 clear
 echo -e "========================="
-echo -e "${success} Domain: ${domain} Ditambahkan..."
+echo -e "${success} Domain: ${domain} Added..."
 echo -e "========================="
 sleep 3
 # Delete Files
