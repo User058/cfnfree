@@ -97,7 +97,7 @@ rennewtrgo
 cektrgo
 ;;
 17)
-cerv2ray.sh
+cerv2ray
 ;;
 18)
 clear
@@ -105,7 +105,7 @@ exit
 ;;
 *)
 clear
-bash menu.sh
+bash menu
 ;;
 esac
 #
