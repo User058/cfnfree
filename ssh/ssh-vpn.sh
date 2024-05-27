@@ -480,6 +480,7 @@ chmod +x portsstp
 chmod +x portsquid
 chmod +x portvlm
 chmod +x wbmn
+chmod +x m-dns
 chmod +x xp
 chmod +x swapkvm
 chmod +x addvmess
