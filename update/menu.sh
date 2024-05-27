@@ -54,7 +54,7 @@ msetting
 5)
 start-menu
 ;;
-5)
+6)
 clear
 exit
 ;;
