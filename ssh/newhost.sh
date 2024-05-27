@@ -27,7 +27,7 @@ error1="${RED}[ERROR]${NC}"
 success="${GREEN}[SUCCESS]${NC}"
 clear
 echo -e "========================="
-read -rp "Masukan Domain/Host : " -e domain
+read -rp "Input Domain/Host : " -e domain
 echo -e "========================="
 echo -e "${success} Please wait..."
 mkdir -p /usr/bin/xray
@@ -61,4 +61,4 @@ sleep 5
 # bash acme.sh --issue --standalone -d $domain --force
 # bash acme.sh --installcert -d $domain --fullchainpath /etc/xray/xray.crt --keypath /etc/xray/xray.key
 # #service squid start
-# sleep 3
+# sleep 0.5
