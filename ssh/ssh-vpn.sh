@@ -452,6 +452,7 @@ wget -O cekvmess "https://${akbarvpnn}/cekv2ray.sh"
 wget -O certv2ray "https://${akbarvpnn}/certv2ray.sh"
 wget -O portsshws "https://${akbarvpnnnnn}/portsshws.sh"
 wget -O portsshnontls "https://${akbarvpnnnnn}/portsshnontls.sh"
+wget -O m-dns "https://${akbarvpnnnnn}/m-dns.sh
 
 chmod +x addhost
 chmod +x menu
