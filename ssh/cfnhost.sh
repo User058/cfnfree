@@ -30,9 +30,9 @@ fi
 clear
 
 echo -e "========================="
-read -rp "Masukan Domain/Host : " -e domain
+read -rp "Input Domain/Host : " -e domain
 echo -e "========================="
-echo -e "${success}\nDomain : ${domain} Di Tambahkan.."
+echo -e "${success}\Domain : ${domain} Added.."
 # Delete Files
 rm /var/lib/akbarstorevpn/cfndomain
 # Done
