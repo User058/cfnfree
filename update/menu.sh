@@ -30,8 +30,9 @@ echo -e "$BLUE╠➣$NC 1$NC. SSH & OpenVPN Account             $BLUE║ "
 echo -e "$BLUE╠➣$NC 2$NC. Restart All Service         $BLUE      ║ " 
 echo -e "$BLUE╠➣$NC 3$NC. Backup & Restore            $BLUE      ║ " 
 echo -e "$BLUE╠➣$NC 4$NC. Settings                    $BLUE      ║ " 
-echo -e "$BLUE╠➣$NC 5$NC. Cek Service                 $BLUE      ║ " 
-echo -e "$BLUE╠➣$NC 6$NC. Exit                        $BLUE      ║ " 
+echo -e "$BLUE╠➣$NC 5$NC. Cek Service                 $BLUE      ║ "
+echo -e "$BLUE╠➣$NC 6$NC. Xray                 $BLUE      ║ "
+echo -e "$BLUE╠➣$NC 7$NC. Exit                        $BLUE      ║ " 
 echo -e "$BLUE║---------------------------------------║"
 echo -e "$BLUE╠➣$NC Mod By User058                       $BLUE║"
 echo -e "$BLUE╠➣$NC Holla                                $BLUE║"
@@ -55,6 +56,9 @@ msetting
 start-menu
 ;;
 6)
+maddxray
+;;
+7)
 clear
 exit
 ;;
