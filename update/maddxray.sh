@@ -97,7 +97,7 @@ rennewtrgo
 cektrgo
 ;;
 17)
-cerv2ray
+certv2ray
 ;;
 18)
 clear
