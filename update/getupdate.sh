@@ -48,5 +48,6 @@ chmod +x start-menu
 cd /root
 # clear
 clear
+rm -f getupdate.sh
 echo -e "Succes Update Menu"
 sleep 3
