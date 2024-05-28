@@ -44,7 +44,7 @@ echo ""
 echo "Please Insert DNS !"
 sleep 1
 clear
-dns
+m-dns
 fi
 rm /etc/resolv.conf
 touch /etc/resolv.conf
@@ -57,7 +57,7 @@ echo ""
 cat /etc/resolv.conf
 sleep 1
 clear
-dns
+m-dns
 ;;
 2)
 clear
@@ -68,7 +68,7 @@ echo ""
 echo "Please Insert DNS !"
 sleep 1
 clear
-dns
+m-dns
 fi
 rm /etc/resolv.conf
 rm /etc/resolvconf/resolv.conf.d/head
@@ -84,7 +84,7 @@ echo ""
 cat /etc/resolvconf/resolv.conf.d/head
 sleep 1
 clear
-dns
+m-dns
 ;;
 3)
 clear
@@ -106,7 +106,7 @@ sleep 1
 fi
 fi
 clear
-dns
+m-dns
 ;;
 4)
 clear
@@ -119,6 +119,6 @@ menu
 *)
 echo "Please enter an correct number"
 clear
-dns
+m-dns
 ;;
 esac
