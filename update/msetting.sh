@@ -34,7 +34,8 @@ echo -e "$BLUE╠➣$NC 5$NC. Change Port OVPN             $BLUE     ║ "
 echo -e "$BLUE╠➣$NC 6$NC. Set Limit Speed             $BLUE      ║ " 
 echo -e "$BLUE╠➣$NC 7$NC. Cek Bandwith Server         $BLUE      ║ " 
 echo -e "$BLUE╠➣$NC 8$NC. Rennew Cert                 $BLUE      ║ " 
-echo -e "$BLUE╠➣$NC 9$NC. Back to Menu                $BLUE      ║ " 
+echo -e "$BLUE╠➣$NC 9$NC. Change DNS                        $BLUE║ "
+echo -e "$BLUE╠➣$NC 10$NC. Back to Menu               $BLUE      ║ " 
 echo -e "$BLUE║---------------------------------------║"
 echo -e "$BLUE╚═══════════════════════════════════════╝$NC"  
 read -p "Select From Options [ 1 - 7 ] : " menu
@@ -65,6 +66,9 @@ vnstat
 certsslh
 ;;
 9)
+m-dns
+;;
+10)
 clear
 menu
 ;;
