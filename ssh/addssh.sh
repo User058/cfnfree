@@ -58,7 +58,7 @@ clear
 #systemctl restart openvpn-ohp
 if [[ "$Login" = "$cek" ]]; then
 echo -e "======================"
-echo -e "${error1} User ${Login} Sudah Terdaftar"
+echo -e "${error1} User ${Login} Already Registered"
 echo -e "======================"
 exit 0
 else
