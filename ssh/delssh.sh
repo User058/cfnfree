@@ -24,11 +24,11 @@ echo -e "${NC}${LIGHT}Telegram : https://t.me/liz_mine"
 exit 0
 fi
 clear
-read -p "Username SSH to Delete : " Pengguna
+read -p "User SSH to Delete : " Pengguna
 
 if getent passwd $Pengguna > /dev/null 2>&1; then
         userdel $Pengguna
-        echo -e "Username $Pengguna Telah Di Hapus"
+        echo -e "User $Pengguna Was removed"
 else
-        echo -e "Failure: Username $Pengguna Tidak Ada"
+        echo -e "Failure: User $Pengguna Does Not Exist"
 fi
