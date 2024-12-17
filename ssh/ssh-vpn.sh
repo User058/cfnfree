@@ -403,110 +403,82 @@ netfilter-persistent reload
 
 # download script
 cd /usr/bin
-wget -O addhost "https://${akbarvpn}/addhost.sh"
-wget -O about "https://${akbarvpn}/about.sh"
-wget -O menu "https://${akbarvpn}/menu.sh"
-wget -O addssh "https://${akbarvpn}/addssh.sh"
-wget -O trialssh "https://${akbarvpn}/trialssh.sh"
-wget -O delssh "https://${akbarvpn}/delssh.sh"
-wget -O member "https://${akbarvpn}/member.sh"
-wget -O delexp "https://${akbarvpn}/delexp.sh"
-wget -O cekssh "https://${akbarvpn}/cekssh.sh"
-wget -O restart "https://${akbarvpn}/restart.sh"
-wget -O speedtest "https://${akbarvpn}/speedtest_cli.py"
-wget -O info "https://${akbarvpn}/info.sh"
-wget -O ram "https://${akbarvpn}/ram.sh"
-wget -O renewssh "https://${akbarvpn}/renewssh.sh"
-wget -O autokill "https://${akbarvpn}/autokill.sh"
-wget -O ceklim "https://${akbarvpn}/ceklim.sh"
-wget -O tendang "https://${akbarvpn}/tendang.sh"
-wget -O clearlog "https://${akbarvpn}/clearlog.sh"
-wget -O changeport "https://${akbarvpn}/changeport.sh"
-wget -O portovpn "https://${akbarvpn}/portovpn.sh"
-wget -O portwg "https://${akbarvpn}/portwg.sh"
-wget -O porttrojan "https://${akbarvpn}/porttrojan.sh"
-wget -O portsstp "https://${akbarvpn}/portsstp.sh"
-wget -O portsquid "https://${akbarvpn}/portsquid.sh"
-wget -O portvlm "https://${akbarvpn}/portvlm.sh"
-wget -O wbmn "https://${akbarvpn}/webmin.sh"
-wget -O xp "https://${akbarvpn}/xp.sh"
-wget -O swapkvm "https://${akbarvpn}/swapkvm.sh"
-wget -O certsslh "https://${akbarvpn}/certsslh.sh"
-wget -O cfnhost "https://${akbarvpn}/cfnhost.sh"
-# wget -O addvmess "https://${akbarvpnn}/addv2ray.sh"
-# wget -O addvless "https://${akbarvpnn}/addvless.sh"
-# wget -O addtrojan "https://${akbarvpnn}/addtrojan.sh"
-# wget -O delvmess "https://${akbarvpnn}/delv2ray.sh"
-# wget -O delvless "https://${akbarvpnn}/delvless.sh"
-# wget -O deltrojan "https://${akbarvpnn}/deltrojan.sh"
-# wget -O cekvless "https://${akbarvpnn}/cekvless.sh"
-# wget -O cektrojan "https://${akbarvpnn}/cektrojan.sh"
-# wget -O renewvmess "https://${akbarvpnn}/renewv2ray.sh"
-# wget -O renewvless "https://${akbarvpnn}/renewvless.sh"
-# wget -O renewtrojan "https://${akbarvpnn}/renewtrojan.sh"
-# wget -O addtrgo "https://${akbarvpnnn}/addtrgo.sh"
-# wget -O deltrgo "https://${akbarvpnnn}/deltrgo.sh"
-# wget -O renewtrgo "https://${akbarvpnnn}/renewtrgo.sh"
-# wget -O cektrgo "https://${akbarvpnnn}/cektrgo.sh"
-# wget -O cekvmess "https://${akbarvpnn}/cekv2ray.sh"
-# wget -O certv2ray "https://${akbarvpnn}/certv2ray.sh"
-wget -O portsshws "https://${akbarvpnnnnn}/portsshws.sh"
-wget -O portsshnontls "https://${akbarvpnnnnn}/portsshnontls.sh"
-wget -O m-dns "https://${akbarvpnnnnn}/m-dns.sh"
+# download script
+cd /usr/bin
+# menu
+wget -O menu "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/menu/menu.sh"
+wget -O m-vmess "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/menu/m-vmess.sh"
+wget -O m-vless "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/menu/m-vless.sh"
+wget -O running "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/menu/running.sh"
+wget -O clearcache "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/menu/clearcache.sh"
+wget -O m-ssws "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/menu/m-ssws.sh"
+wget -O m-trojan "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/menu/m-trojan.sh"
 
-chmod +x addhost
+# menu ssh ovpn
+wget -O m-sshovpn "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/menu/m-sshovpn.sh"
+wget -O usernew "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/ssh/usernew.sh"
+wget -O trial "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/ssh/trial.sh"
+wget -O renew "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/ssh/renew.sh"
+wget -O hapus "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/ssh/hapus.sh"
+wget -O cek "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/ssh/cek.sh"
+wget -O member "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/ssh/member.sh"
+wget -O delete "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/ssh/delete.sh"
+wget -O autokill "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/ssh/autokill.sh"
+wget -O ceklim "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/ssh/ceklim.sh"
+wget -O tendang "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/ssh/tendang.sh"
+wget -O sshws "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/ssh/sshws.sh"
+wget -O user-lock "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/ssh/user-lock.sh"
+wget -O user-unlock "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/ssh/user-unlock.sh"
+
+# menu system
+wget -O m-system "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/menu/m-system.sh"
+wget -O m-domain "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/menu/m-domain.sh"
+wget -O add-host "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/ssh/add-host.sh"
+wget -O certv2ray "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/xray/certv2ray.sh"
+wget -O speedtest "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/ssh/speedtest_cli.py"
+wget -O auto-reboot "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/menu/auto-reboot.sh"
+wget -O restart "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/menu/restart.sh"
+wget -O bw "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/menu/bw.sh"
+wget -O m-tcp "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/menu/tcp.sh"
+wget -O xp "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/ssh/xp.sh"
+wget -O sshws "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/ssh/sshws.sh"
+wget -O m-dns "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/menu/m-dns.sh"
+
 chmod +x menu
-chmod +x addssh
-chmod +x trialssh
-chmod +x delssh
+chmod +x m-vmess
+chmod +x m-vless
+chmod +x running
+chmod +x clearcache
+chmod +x m-ssws
+chmod +x m-trojan
+
+chmod +x m-sshovpn
+chmod +x usernew
+chmod +x trial
+chmod +x renew
+chmod +x hapus
+chmod +x cek
 chmod +x member
-chmod +x delexp
-chmod +x cekssh
-chmod +x restart
-chmod +x speedtest
-chmod +x info
-chmod +x about
+chmod +x delete
 chmod +x autokill
-chmod +x tendang
 chmod +x ceklim
-chmod +x ram
-chmod +x renewssh
-chmod +x clearlog
-chmod +x changeport
-chmod +x portovpn
-chmod +x portwg
-chmod +x porttrojan
-chmod +x portsstp
-chmod +x portsquid
-chmod +x portvlm
-chmod +x wbmn
-chmod +x xp
-chmod +x swapkvm
-chmod +x addvmess
-chmod +x addvless
-chmod +x addtrojan
-chmod +x delvless
-chmod +x delvmess
-chmod +x deltrojan
-chmod +x cekvmess
-chmod +x cekvless
-chmod +x cektrojan
-chmod +x renewvmess
-chmod +x renewvless
-chmod +x renewtrojan
+chmod +x tendang
+chmod +x sshws
+chmod +x user-lock
+chmod +x user-unlock
+
+chmod +x m-system
+chmod +x m-domain
+chmod +x add-host
 chmod +x certv2ray
-chmod +x addtrgo
-chmod +x deltrgo
-chmod +x renewtrgo
-chmod +x cektrgo
-chmod +x portsshws
-chmod +x portsshnontls
-chmod +x cfnhost
-chmod +x certsslh
+chmod +x speedtest
+chmod +x auto-reboot
+chmod +x restart
+chmod +x bw
+chmod +x m-tcp
+chmod +x xp
+chmod +x sshws
 chmod +x m-dns
-echo "0 5 * * * root clearlog && reboot" >> /etc/crontab
-echo "0 0 * * * root xp" >> /etc/crontab
-echo "5 0 * * * root delexp && restart " >> /etc/crontab
 # remove unnecessary files
 cd
 apt autoclean -y
