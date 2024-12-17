@@ -39,8 +39,6 @@ akbarvpnnnnnnnn="raw.githubusercontent.com/User058/cfnfree/main/backup"
 akbarvpnnnnnnnnn="raw.githubusercontent.com/User058/cfnfree/main/websocket"
 # Link Hosting Kalian Untuk Ohp
 akbarvpnnnnnnnnnn="raw.githubusercontent.com/User058/cfnfree/main/ohp"
-# link Hosting update
-akbarvpnnnnnnnnnnn="raw.githubusercontent.com/User058/cfnfree/main/update"
 
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
